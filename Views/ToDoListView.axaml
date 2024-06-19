@@ -6,7 +6,7 @@
              x:Class="ToDoList.Views.ToDoListView"
              xmlns:vm="using:ToDoList.ViewModels"
              x:DataType="vm:ToDoListViewModel">
-	<DockPanel Background="#1c88a0">
+	<DockPanel Background="#27a9c6">
 		
                
 		<Button DockPanel.Dock="Bottom"

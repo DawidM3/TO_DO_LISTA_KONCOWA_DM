@@ -22,7 +22,7 @@ namespace ToDoList.ViewModels
 
         private void ListItems_CollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
         {
-            // Obsługa dodanych elementów
+            
             if (e.NewItems != null)
             {
                 foreach (ToDoItem newItem in e.NewItems)
@@ -31,7 +31,7 @@ namespace ToDoList.ViewModels
                 }
             }
 
-            // Obsługa usuniętych elementów
+           
             if (e.OldItems != null)
             {
                 foreach (ToDoItem oldItem in e.OldItems)
