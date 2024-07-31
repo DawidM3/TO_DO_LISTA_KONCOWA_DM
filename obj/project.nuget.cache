@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rIV7bhmAeteKFufvoond3Q0jXiqK3YF9abgfqshJUbGbv1BSuIMT8y7fqCFMSKdruX6ed1vWw328dhhyOBFJ+w==",
+  "dgSpecHash": "8YFtF3FT71YvXSyhVGjYBbjBIBwGbVMQpNOMXFlUHoGwqbgPUCEBYtAQaRhVNnBid/o+uuvLP02/04obamiPQQ==",
   "success": true,
-  "projectFilePath": "L:\\_PROGRAMOWANIE\\Avalonia-_TO_DO_PROJEKT_KONCOWY\\Avalonia-main\\ToDoList.csproj",
+  "projectFilePath": "E:\\DANE_UDST_HDD\\STUDIA\\PROJEKT_AVALONIA_POPRAWA\\TO_DO_LISTA_KONCOWA_DM-main\\ToDoList.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dawid\\.nuget\\packages\\avalonia\\11.0.6\\avalonia.11.0.6.nupkg.sha512",
     "C:\\Users\\dawid\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.0.2023020321\\avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",
@@ -37,6 +37,7 @@
     "C:\\Users\\dawid\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\dawid\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\dawid\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\dawid\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\dawid\\.nuget\\packages\\reactiveui\\18.3.1\\reactiveui.18.3.1.nupkg.sha512",
     "C:\\Users\\dawid\\.nuget\\packages\\skiasharp\\2.88.6\\skiasharp.2.88.6.nupkg.sha512",
     "C:\\Users\\dawid\\.nuget\\packages\\skiasharp.nativeassets.linux\\2.88.6\\skiasharp.nativeassets.linux.2.88.6.nupkg.sha512",

@@ -13,18 +13,18 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ToDoList
-build_property.ProjectDir = L:\_PROGRAMOWANIE\Avalonia-_TO_DO_PROJEKT_KONCOWY\Avalonia-main\
+build_property.ProjectDir = E:\DANE_UDST_HDD\STUDIA\PROJEKT_AVALONIA_POPRAWA\TO_DO_LISTA_KONCOWA_DM-main\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[L:/_PROGRAMOWANIE/Avalonia-_TO_DO_PROJEKT_KONCOWY/Avalonia-main/App.axaml]
+[E:/DANE_UDST_HDD/STUDIA/PROJEKT_AVALONIA_POPRAWA/TO_DO_LISTA_KONCOWA_DM-main/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[L:/_PROGRAMOWANIE/Avalonia-_TO_DO_PROJEKT_KONCOWY/Avalonia-main/Views/AddItemView.axaml]
+[E:/DANE_UDST_HDD/STUDIA/PROJEKT_AVALONIA_POPRAWA/TO_DO_LISTA_KONCOWA_DM-main/Views/AddItemView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[L:/_PROGRAMOWANIE/Avalonia-_TO_DO_PROJEKT_KONCOWY/Avalonia-main/Views/MainWindow.axaml]
+[E:/DANE_UDST_HDD/STUDIA/PROJEKT_AVALONIA_POPRAWA/TO_DO_LISTA_KONCOWA_DM-main/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[L:/_PROGRAMOWANIE/Avalonia-_TO_DO_PROJEKT_KONCOWY/Avalonia-main/Views/ToDoListView.axaml]
+[E:/DANE_UDST_HDD/STUDIA/PROJEKT_AVALONIA_POPRAWA/TO_DO_LISTA_KONCOWA_DM-main/Views/ToDoListView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

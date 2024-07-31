@@ -5,7 +5,7 @@ namespace ToDoList.DataModel
 {
     public class ToDoItem : INotifyPropertyChanged
     {
-        private string _description = String.Empty;
+        private string _description = string.Empty;
         private bool _isChecked;
 
         public string Description
@@ -35,7 +35,7 @@ namespace ToDoList.DataModel
             }
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler? PropertyChanged;
 
         protected virtual void OnPropertyChanged(string propertyName)
         {
@@ -44,7 +44,7 @@ namespace ToDoList.DataModel
 
         private void OnCheckedChanged()
         {
-            // Ta metoda zostanie zaimplementowana później
+            // Metoda wywoływana przy zmianie zaznaczenia
         }
     }
 }

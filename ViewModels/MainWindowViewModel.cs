@@ -8,16 +8,18 @@ namespace ToDoList.ViewModels
 {
     public class MainWindowViewModel : ViewModelBase
     {
-        //this has a dependency on the ToDoListService
-
+        private readonly ToDoListService _service;
         private ViewModelBase _contentViewModel;
-         public MainWindowViewModel()
+
+        public MainWindowViewModel()
         {
-            var service = new ToDoListService();
-            ToDoList = new ToDoListViewModel(service.GetItems());
+            _service = new ToDoListService();
+            ToDoList = new ToDoListViewModel(_service.GetItems());
             _contentViewModel = ToDoList;
+
+            ToDoList.ListItems.CollectionChanged += (s, e) => _service.SaveItems(ToDoList.ListItems);
         }
-        
+
         public ViewModelBase ContentViewModel
         {
             get => _contentViewModel;
@@ -34,12 +36,12 @@ namespace ToDoList.ViewModels
                 addItemViewModel.OkCommand,
                 addItemViewModel.CancelCommand.Select(_ => (ToDoItem?)null))
                 .Take(1)
-                
                 .Subscribe(newItem =>
                 {
                     if (newItem != null)
                     {
-                        ToDoList.ListItems.Add(newItem );
+                        ToDoList.ListItems.Add(newItem);
+                        _service.SaveItems(ToDoList.ListItems);
                     }
                     ContentViewModel = ToDoList;
                 });

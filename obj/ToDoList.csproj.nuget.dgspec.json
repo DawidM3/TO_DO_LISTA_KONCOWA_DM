@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "L:\\_PROGRAMOWANIE\\Avalonia-_TO_DO_PROJEKT_KONCOWY\\Avalonia-main\\ToDoList.csproj": {}
+    "E:\\DANE_UDST_HDD\\STUDIA\\PROJEKT_AVALONIA_POPRAWA\\TO_DO_LISTA_KONCOWA_DM-main\\ToDoList.csproj": {}
   },
   "projects": {
-    "L:\\_PROGRAMOWANIE\\Avalonia-_TO_DO_PROJEKT_KONCOWY\\Avalonia-main\\ToDoList.csproj": {
+    "E:\\DANE_UDST_HDD\\STUDIA\\PROJEKT_AVALONIA_POPRAWA\\TO_DO_LISTA_KONCOWA_DM-main\\ToDoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "L:\\_PROGRAMOWANIE\\Avalonia-_TO_DO_PROJEKT_KONCOWY\\Avalonia-main\\ToDoList.csproj",
+        "projectUniqueName": "E:\\DANE_UDST_HDD\\STUDIA\\PROJEKT_AVALONIA_POPRAWA\\TO_DO_LISTA_KONCOWA_DM-main\\ToDoList.csproj",
         "projectName": "ToDoList",
-        "projectPath": "L:\\_PROGRAMOWANIE\\Avalonia-_TO_DO_PROJEKT_KONCOWY\\Avalonia-main\\ToDoList.csproj",
+        "projectPath": "E:\\DANE_UDST_HDD\\STUDIA\\PROJEKT_AVALONIA_POPRAWA\\TO_DO_LISTA_KONCOWA_DM-main\\ToDoList.csproj",
         "packagesPath": "C:\\Users\\dawid\\.nuget\\packages\\",
-        "outputPath": "L:\\_PROGRAMOWANIE\\Avalonia-_TO_DO_PROJEKT_KONCOWY\\Avalonia-main\\obj\\",
+        "outputPath": "E:\\DANE_UDST_HDD\\STUDIA\\PROJEKT_AVALONIA_POPRAWA\\TO_DO_LISTA_KONCOWA_DM-main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dawid\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,6 +63,10 @@
             "Avalonia.Themes.Fluent": {
               "target": "Package",
               "version": "[11.0.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
